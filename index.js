@@ -3,6 +3,7 @@ const { listContacts, getContactById, removeContact, addContact } = require('./c
 // const argv = require('yargs').argv
 
 const { Command } = require('commander')
+
 const program = new Command()
 program
   .option('-a, --action <type>', 'choose action')

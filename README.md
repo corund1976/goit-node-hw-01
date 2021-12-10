@@ -9,6 +9,8 @@
    "start": "node index.js",
    "start:dev": "nodemon index.js"
    },
-4. Установим пакет uniqid для генерации случайных ID
-   npm i uniqid
-5.
+4. Установим пакет yargs для работы с командной строкой
+   npm i yargs
+5. Установим пакет более популярный альтернативный commander
+   для работы с командной строкой
+   npm i commander
